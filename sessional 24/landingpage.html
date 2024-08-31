@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.cs">
+    <style>
+        .hero-img{
+        
+            background-image: url('https://thumbs.dreamstime.com/b/art-spring-flowers-background-frame-52852938.jpg');
+            background-size: cover;
+            /* background-position: center; */
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            height: 70vh;
+        }
+        .container{
+            /* background: transparent; */
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        
+        
+        }
+        .section-tittle{
+            display: flex;
+            font-family: sans-serif;
+            margin-bottom: 40px;
+            justify-content: center;
+            font-size: 60px;
+        }
+        .feature-section{
+            padding: 100px 200px;
+        }
+        .card-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+        .card{
+            width: 300px;
+            padding: 30px;
+            text-align: center;
+            color:blueviolet;
+            box-shadow: 2px 3px 1px 3px rgb(184, 176, 176);
+            border-radius: 20px;
+            font-family: sans-serif;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+        }
+        .card:hover{
+            font-size: 16px;
+            background-color:rgb(175, 149, 198);
+            color: black;
+            transform: translateY(-20px);
+        }
+
+    </style>
+</head>
+<!-- 
+1 Header Section
+2 Main Section
+3 Footer Section-->
+<body>
+    <header class="hero-img">
+      <div class="container">
+        <h2 style="color:rgba(63, 6, 59, 0.754);font-size: 60px;font-family: sans-serif; ">Welcome to Our Website</h2>
+        <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, commodi.</p> -->
+        <!-- <p>We Offer Amazing Services to Help You Succeed</p> -->
+      </div>  
+        
+    </header>
+
+    <main>
+        <section class="feature-section">
+            <h1 class="section-tittle">Our Features</h1>
+            <div class="card-container">
+                <div class="card">
+                    <i class=" fa-4x fa-brands fa-windows"></i>
+                    <h3>Fast Solution</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis obcaecati officia rerum,?</p>
+                </div>
+                <div class="card">
+                    <i class=" fa-4x fa-brands fa-windows"></i>
+                    <h3>Fast Solution</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis obcaecati officia rerum,?</p>
+                </div>
+                <div class="card">
+                    <i class=" fa-4x fa-brands fa-windows"></i>
+                    <h3>Fast Solution</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis obcaecati officia rerum,?</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
