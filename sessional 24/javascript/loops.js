@@ -18,7 +18,7 @@ console.log(".............")
  for(let a=0;a<=4; a++)
     console.log("bhawna")
 console.log("..........")
-
+// for of loop
 let names =["bhawna" ,"zahra", "varsha"]
 for(let name of names ){ 
     

@@ -16,6 +16,7 @@ if(age < 18){
 // if-else
 // if-else-if
 // switch 
+// ternery
 
 
 
@@ -41,3 +42,17 @@ else{
 console.log("..........")
 
 // switch
+
+
+
+// ternary
+let Age = 18
+let message = Age >=18? "you can vote ": "you cant vote"
+console.log(message);
+console.log("...............");
+
+// multiple condition
+let Age1 = 18
+let Message = Age <18 ? "you are minnor" : Age >=18 && Age <60 ? "you are an adult" : "you are a senior"
+console.log(Message);
+
