@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Navbar= () => {
   return (
     <div>
@@ -117,45 +117,14 @@ const Navbar= () => {
       >
         <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
           <div>
-            <a
+            <Link
               className="relative inline-block text-black focus:outline-none before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400"
-              href="#"
+              href="/eventHandling"
               aria-current="page"
             >
-              Work
-            </a>
-          </div>
-          <div>
-            <a
-              className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600"
-              href="#"
-            >
-              Services
-            </a>
-          </div>
-          <div>
-            <a
-              className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600"
-              href="#"
-            >
-              About
-            </a>
-          </div>
-          <div>
-            <a
-              className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600"
-              href="#"
-            >
-              Careers
-            </a>
-          </div>
-          <div>
-            <a
-              className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600"
-              href="#"
-            >
-              Blog
-            </a>
+              Event Handling
+            </Link>
+          
           </div>
         </div>
       </div>
