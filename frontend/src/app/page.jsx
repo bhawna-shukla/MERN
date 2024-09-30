@@ -28,18 +28,18 @@ const Page = () => {
                     placeholder="Enter work email"
                   />
                 </div>
-                <a
+                {/* <a
                   className="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                   href="#"
                 >
                   Request demo
-                </a>
+                </a> */}
               </div>
               {/* Brands */}
               <div className="mt-6 lg:mt-12">
-                <span className="text-xs font-medium text-gray-800 uppercase">
+                {/* <span className="text-xs font-medium text-gray-800 uppercase">
                   Trusted by:
-                </span>
+                </span> */}
                 <div className="mt-4 flex gap-x-8">
                   <svg
                     className="w-20 h-auto"
