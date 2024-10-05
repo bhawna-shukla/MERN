@@ -56,14 +56,43 @@ const Navbar= () => {
           type="button"
           className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
         >
-          Sign in
+         <Link
+              className="relative "
+              href="/signup"
+              aria-current="page"
+            >
+              Sign in 
+            </Link>
         </button>
+
+        
         <button
           type="button"
           className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-lime-400 text-black hover:bg-lime-500 focus:outline-none focus:bg-lime-500 transition disabled:opacity-50 disabled:pointer-events-none"
         >
-          Hire us
+             <Link
+              className="relative "
+              href="/login"
+              aria-current="page"
+            >
+              Login 
+            </Link>
         </button>
+        <button
+          type="button"
+          className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-gray-200 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+        >
+         <Link
+              className="relative "
+              href="/contactUs"
+              aria-current="page"
+            >
+              ContactUs 
+            </Link>
+        </button>
+
+
+
         <div className="md:hidden">
           <button
             type="button"
@@ -117,7 +146,7 @@ const Navbar= () => {
       >
         <div className="flex gap-3 flex-col mt-5 md:flex-row md:justify-center md:items-center  md:mt-0">
         
-          
+          {/* you back to home section  creat a (/) */}
             <Link
               className="relative "
               href="/eventHandling"
@@ -139,6 +168,13 @@ const Navbar= () => {
             >
               ToDo
             </Link>
+            {/* <Link
+              className="relative "
+              href="/signup"
+              aria-current="page"
+            >
+              Signup
+            </Link> */}
           </div>
         </div>
       
