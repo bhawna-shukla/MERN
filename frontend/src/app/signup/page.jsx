@@ -3,6 +3,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import toast from 'react-hot-toast'
+import classes from './signup.module.css'
 
 
 // validation creat structure
@@ -61,7 +62,7 @@ const SignUp = () => {
                   Solving problems for every{" "}
                   <span className="text-blue-600">team</span>
                 </h1>
-                <p className="mt-3 text-base text-gray-500">
+                <p className={classes.para}>
                   Built on standard web technology, teams use Preline to build
                   beautiful cross-platform hybrid apps in a fraction of the
                   time.
