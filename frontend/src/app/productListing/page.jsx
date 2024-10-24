@@ -5,10 +5,10 @@ const ProductListing = () => {
 
   const weatherCondition = (temp) => {
     if (temp <= 28) {
-      return 'hover:bg-sky-100 text -white'
+      return 'hover:bg-sky-100 text-black'
     }
     else {
-      return 'hover:bg-red-200 text-white'
+      return 'hover:bg-red-600 text-black'
     }
   }
 
@@ -16,8 +16,8 @@ const ProductListing = () => {
   const displayCards = () => {
     return Data.map((item) => (
       <div className="w-full md:w-1/3 mb-6">
-        <div className={`rounded - lg shadow-lg p-4 ${weatherCondition(item.temperature)}`}>
-        <img className="w-full h-48 object-cover rounded-lg" src={item.img} alt="" />
+        <div className={`rounded-lg shadow-lg p-4 ${weatherCondition(item.temperature)}`}>
+        <img className="w-full h-30 object-cover rounded-lg transition delay-100 duration-500 ease-linear hover:scale-125" src={item.img} alt="image" />
         <div className="p-4">
           <h3>{item.location}</h3>
           <hr />

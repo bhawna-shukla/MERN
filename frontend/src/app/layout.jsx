@@ -31,15 +31,17 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <Toaster >  {(t) => (
-    <ToastBar
-      toast={t}
-      style={{
-        ...t.style,
-        animation: t.visible ? 'custom-enter 1s ease' : 'custom-exit 1s ease',
-      }}
-    />
-  )}</Toaster>
+        <Toaster>
+          {(t) => (
+            <ToastBar
+              toast={t}
+              style={{
+                ...t.style,
+                animation: t.visible ? 'custom-enter 1s ease' : 'custom-exit 1s ease',
+              }}
+            />
+          )}
+        </Toaster>
         {children}
         {/* <Footer /> */}
         

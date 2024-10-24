@@ -41,6 +41,27 @@ const Data = [
         humidity: '70%',
         img : 'https://www.fabhotels.com/blog/wp-content/uploads/2018/09/Gateway-of-India-1.jpg'
     },
+    {
+        id: 7,
+        location: 'gujrat',
+        temperature: 24,
+        humidity: '70%',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbffsuiakBnqQ2BZn1iKXAKi6shxyBr3VOA&s'
+    },
+    {
+        id: 8,
+        location: 'gujrat',
+        temperature: 29,
+        humidity: '70%',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbffsuiakBnqQ2BZn1iKXAKi6shxyBr3VOA&s'
+    },
+    {
+        id: 9,
+        location: 'Mumbai',
+        temperature: 29,
+        humidity: '70%',
+        img : 'https://www.fabhotels.com/blog/wp-content/uploads/2018/09/Gateway-of-India-1.jpg'
+    },
     
 ]
 export default Data;
