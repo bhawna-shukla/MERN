@@ -1,6 +1,7 @@
 // import localFont from "next/font/local";
 // import "./globals.css";
-import Navbar from "./navbar";
+import Sidebar from "./sidebar";
+// import Navbar from "./sidebar"
 
 
 
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
       <body
         className={' antialiased'}
       >
-        <Navbar />
+        <Sidebar />
         {children}
         
         

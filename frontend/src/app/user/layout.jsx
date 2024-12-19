@@ -1,7 +1,7 @@
 "use client"
 import localFont from "next/font/local";
-import "./globals.css";
-// import Navbar from "./navbar";
+// import "./globals.css";
+import Navbar from "./navbar";
 
 import { Toaster,ToastBar} from "react-hot-toast";
 import { AppProvider } from "@/contex/appContex";
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         
       >
         <AppProvider>
-        {/* <Navbar /> */}
+        <Navbar />
         <Toaster>
           {(t) => (
             <ToastBar

@@ -12,7 +12,6 @@ const ProductRouter = require('./routers/product')
 // Middleware
 app.use(express.json())
 
-app.use('/product',ProductRouter)
 
 
 
@@ -20,6 +19,8 @@ app.use(cors({
     origin: ['http://localhost:3000'],
 }))
 app.use('/user',UserRouter);
+app.use('/product',ProductRouter)
+
 
 
 
